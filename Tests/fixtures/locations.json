@@ -1,0 +1,106 @@
+{
+	"data": [{
+		"id": "214028004",
+		"name": "Embarcadero",
+		"latitude": 37.799444,
+		"longitude": -122.395
+	}, {
+		"id": "910270",
+		"name": "AT\u0026T Park",
+		"latitude": 37.778544827056,
+		"longitude": -122.38977532691
+	}, {
+		"id": "44961364",
+		"name": "San Francisco, California",
+		"latitude": 37.775,
+		"longitude": -122.418
+	}, {
+		"id": "1361",
+		"name": "Pier 40",
+		"latitude": 37.781719106912,
+		"longitude": -122.38747136382
+	}, {
+		"id": "234594069",
+		"name": "San Francisco, Panama, Panama",
+		"latitude": 8.86167,
+		"longitude": -79.79
+	}, {
+		"id": "256587379",
+		"name": "24 Hour Fitness - Marathon Plaza, CA",
+		"latitude": 37.7853061,
+		"longitude": -122.3963658455
+	}, {
+		"id": "3314",
+		"name": "Under The Bay Bridge",
+		"latitude": 37.789964334806,
+		"longitude": -122.38923977724
+	}, {
+		"id": "1636357",
+		"name": "South Beach Harbor",
+		"latitude": 37.780621793597,
+		"longitude": -122.38793552699
+	}, {
+		"id": "217358926",
+		"name": "South of Market, San Francisco",
+		"latitude": 37.777222222222,
+		"longitude": -122.41111111111
+	}, {
+		"id": "234491977",
+		"name": "Bay Bridge",
+		"latitude": 37.781919592439,
+		"longitude": -122.39644809281
+	}, {
+		"id": "736208668",
+		"name": "Mission District, San Francisco",
+		"latitude": 37.76,
+		"longitude": -122.42
+	}, {
+		"id": "971234",
+		"name": "South Beach Yacht Club",
+		"latitude": 37.779971428697,
+		"longitude": -122.38772024063
+	}, {
+		"id": "247661748",
+		"name": "South Park, San Francisco",
+		"latitude": 37.7815,
+		"longitude": -122.394
+	}, {
+		"id": "49595",
+		"name": "Delancey Street Restaurant",
+		"latitude": 37.784186,
+		"longitude": -122.3884001
+	}, {
+		"id": "229989886",
+		"name": "Mission Bay, San Francisco",
+		"latitude": 37.7668,
+		"longitude": -122.391
+	}, {
+		"id": "213392065",
+		"name": "TresSF",
+		"latitude": 37.78015,
+		"longitude": -122.39132
+	}, {
+		"id": "224507957",
+		"name": "Terra Gallery \u0026 Event Venue",
+		"latitude": 37.785684611733,
+		"longitude": -122.39312870229
+	}, {
+		"id": "176091",
+		"name": "SFMOMA San Francisco Museum of Modern Art",
+		"latitude": 37.78592,
+		"longitude": -122.40074
+	}, {
+		"id": "1027800655",
+		"name": "ATwater Tavern",
+		"latitude": 37.7745093,
+		"longitude": -122.3873554
+	}, {
+		"id": "4671402",
+		"name": "Lucky Strike",
+		"latitude": 37.7781856,
+		"longitude": -122.3921869
+	}],
+	"meta": {
+		"code": 200
+	}
+}

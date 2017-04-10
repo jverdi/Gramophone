@@ -1,0 +1,18 @@
+{
+	"data": {
+		"id": "4869495376",
+		"username": "jvtester",
+		"profile_picture": "https://instagram.fktm4-1.fna.fbcdn.net/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+		"full_name": "Jared",
+		"bio": "This is #jvtester and I #jvtest_ all of the things",
+		"website": "",
+		"counts": {
+			"media": 2,
+			"follows": 0,
+			"followed_by": 0
+		}
+	},
+	"meta": {
+		"code": 200
+	}
+}

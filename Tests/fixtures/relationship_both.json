@@ -1,0 +1,10 @@
+{
+	"data": {
+		"outgoing_status": "follows",
+		"incoming_status": "none",
+		"target_user_is_private": false
+	},
+	"meta": {
+		"code": 200
+	}
+}

@@ -1,0 +1,2 @@
+github "anviking/Decodable" == 0.5
+github "antitypical/Result" ~> 3.2

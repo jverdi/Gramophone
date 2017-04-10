@@ -1,0 +1,14 @@
+language: swift
+osx_image: xcode8.3
+
+branches:
+  only:
+    - develop
+    - master
+
+before_install:
+  - gem install xcpretty -N
+
+script: 
+  - set -o pipefail
+  - xcodebuild -project Gramophone.xcodeproj -scheme Gramophone -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' test | xcpretty -c

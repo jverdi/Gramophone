@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A66BCF293AFB42086383B6874118EFEDA57140CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A66BCF293AFB42086383B6874118EFEDA57140CA" : 9223372036854775807,
+    "081BE9A8AC014A30FCFCA46365DCE44CAA886C45" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BBD797D0-D2A5-4F0A-867B-C38589989BBC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A66BCF293AFB42086383B6874118EFEDA57140CA" : "Gramophone\/",
+    "081BE9A8AC014A30FCFCA46365DCE44CAA886C45" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GramophoneExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/GramophoneExample\/GramophoneExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jverdi\/hashtags.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "081BE9A8AC014A30FCFCA46365DCE44CAA886C45"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jverdi\/Gramophone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A66BCF293AFB42086383B6874118EFEDA57140CA"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134512071E9AF2D700A4A949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134512061E9AF2D700A4A949 /* AppDelegate.swift */; };
+		134512091E9AF2D700A4A949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134512081E9AF2D700A4A949 /* ViewController.swift */; };
+		1345120E1E9AF2D700A4A949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1345120D1E9AF2D700A4A949 /* Assets.xcassets */; };
+		134512111E9AF2D700A4A949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345120F1E9AF2D700A4A949 /* LaunchScreen.storyboard */; };
+		134512191E9AF78000A4A949 /* Gramophone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134512181E9AF78000A4A949 /* Gramophone.framework */; };
+		1345121A1E9AF78000A4A949 /* Gramophone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 134512181E9AF78000A4A949 /* Gramophone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		134512201E9AFC3000A4A949 /* Decodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1345121E1E9AFC3000A4A949 /* Decodable.framework */; };
+		134512211E9AFC3000A4A949 /* Decodable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1345121E1E9AFC3000A4A949 /* Decodable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		134512221E9AFC3000A4A949 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1345121F1E9AFC3000A4A949 /* Result.framework */; };
+		134512231E9AFC3000A4A949 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1345121F1E9AFC3000A4A949 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		134512251E9B00F100A4A949 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134512241E9B00F100A4A949 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1345121B1E9AF78000A4A949 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				134512231E9AFC3000A4A949 /* Result.framework in Embed Frameworks */,
+				134512211E9AFC3000A4A949 /* Decodable.framework in Embed Frameworks */,
+				1345121A1E9AF78000A4A949 /* Gramophone.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134512031E9AF2D700A4A949 /* GramophoneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GramophoneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		134512061E9AF2D700A4A949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		134512081E9AF2D700A4A949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1345120D1E9AF2D700A4A949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		134512101E9AF2D700A4A949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		134512121E9AF2D700A4A949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134512181E9AF78000A4A949 /* Gramophone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gramophone.framework; path = ../../../../Build/iOS/Gramophone.framework; sourceTree = "<group>"; };
+		1345121E1E9AFC3000A4A949 /* Decodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Decodable.framework; path = ../../../../Build/iOS/Decodable.framework; sourceTree = "<group>"; };
+		1345121F1E9AFC3000A4A949 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../../../../Build/iOS/Result.framework; sourceTree = "<group>"; };
+		134512241E9B00F100A4A949 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134512001E9AF2D700A4A949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134512221E9AFC3000A4A949 /* Result.framework in Frameworks */,
+				134512201E9AFC3000A4A949 /* Decodable.framework in Frameworks */,
+				134512191E9AF78000A4A949 /* Gramophone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134511FA1E9AF2D700A4A949 = {
+			isa = PBXGroup;
+			children = (
+				134512051E9AF2D700A4A949 /* GramophoneExample */,
+				1345121C1E9AF78600A4A949 /* Frameworks */,
+				134512041E9AF2D700A4A949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		134512041E9AF2D700A4A949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134512031E9AF2D700A4A949 /* GramophoneExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134512051E9AF2D700A4A949 /* GramophoneExample */ = {
+			isa = PBXGroup;
+			children = (
+				134512121E9AF2D700A4A949 /* Info.plist */,
+				134512061E9AF2D700A4A949 /* AppDelegate.swift */,
+				134512241E9B00F100A4A949 /* DetailViewController.swift */,
+				134512081E9AF2D700A4A949 /* ViewController.swift */,
+				1345120D1E9AF2D700A4A949 /* Assets.xcassets */,
+				1345120F1E9AF2D700A4A949 /* LaunchScreen.storyboard */,
+			);
+			path = GramophoneExample;
+			sourceTree = "<group>";
+		};
+		1345121C1E9AF78600A4A949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1345121E1E9AFC3000A4A949 /* Decodable.framework */,
+				134512181E9AF78000A4A949 /* Gramophone.framework */,
+				1345121F1E9AFC3000A4A949 /* Result.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134512021E9AF2D700A4A949 /* GramophoneExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134512151E9AF2D700A4A949 /* Build configuration list for PBXNativeTarget "GramophoneExample" */;
+			buildPhases = (
+				134511FF1E9AF2D700A4A949 /* Sources */,
+				134512001E9AF2D700A4A949 /* Frameworks */,
+				134512011E9AF2D700A4A949 /* Resources */,
+				1345121B1E9AF78000A4A949 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GramophoneExample;
+			productName = GramophoneExample;
+			productReference = 134512031E9AF2D700A4A949 /* GramophoneExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134511FB1E9AF2D700A4A949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jared Verdi";
+				TargetAttributes = {
+					134512021E9AF2D700A4A949 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 134511FE1E9AF2D700A4A949 /* Build configuration list for PBXProject "GramophoneExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 134511FA1E9AF2D700A4A949;
+			productRefGroup = 134512041E9AF2D700A4A949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134512021E9AF2D700A4A949 /* GramophoneExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134512011E9AF2D700A4A949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134512111E9AF2D700A4A949 /* LaunchScreen.storyboard in Resources */,
+				1345120E1E9AF2D700A4A949 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134511FF1E9AF2D700A4A949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134512251E9B00F100A4A949 /* DetailViewController.swift in Sources */,
+				134512091E9AF2D700A4A949 /* ViewController.swift in Sources */,
+				134512071E9AF2D700A4A949 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1345120F1E9AF2D700A4A949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134512101E9AF2D700A4A949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134512131E9AF2D700A4A949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		134512141E9AF2D700A4A949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		134512161E9AF2D700A4A949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../Carthage/Build/iOS";
+				INFOPLIST_FILE = GramophoneExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eesel.GramophoneExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		134512171E9AF2D700A4A949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../Carthage/Build/iOS";
+				INFOPLIST_FILE = GramophoneExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eesel.GramophoneExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		134511FE1E9AF2D700A4A949 /* Build configuration list for PBXProject "GramophoneExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134512131E9AF2D700A4A949 /* Debug */,
+				134512141E9AF2D700A4A949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134512151E9AF2D700A4A949 /* Build configuration list for PBXNativeTarget "GramophoneExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134512161E9AF2D700A4A949 /* Debug */,
+				134512171E9AF2D700A4A949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134511FB1E9AF2D700A4A949 /* Project object */;
+}
