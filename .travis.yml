@@ -1,14 +1,15 @@
 language: swift
 osx_image: xcode8.3
-
 branches:
   only:
     - develop
     - master
-
 before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
   - gem install xcpretty -N
-
+before_script:
+  - carthage bootstrap	
 script: 
   - set -o pipefail
   - xcodebuild -project Gramophone.xcodeproj -scheme Gramophone -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' test | xcpretty -c
