@@ -116,17 +116,6 @@ $ carthage update --platform iOS
 
 and drag the built `Gramophone.framework`, `Decodable.framework`, and `Result.framework` into your Xcode project's Embedded Binaries from `Carthage/Build/iOS`.
 
-### Swift Package Manager
-
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler.
-
-Once you have your Swift package set up, add Gramophone as a dependency to the `dependencies` of your `Package.swift`.
-
-```swift
-dependencies: [
-    .Package(url: "https://github.com/jverdi/Gramophone.git", majorVersion: 1)
-]
-```
 
 ## Dependencies
 
