@@ -54,7 +54,7 @@ struct TestingUtilities {
         return Gramophone(client: client)
     }
     
-    static func testScopes<T>(scopes: [Scope], request: @escaping (Gramophone, @escaping ((APIResult<T>) -> ())) -> ()) {
+    static func testScopes<T: Decodable>(scopes: [Scope], request: @escaping (Gramophone, @escaping ((APIResult<T>) -> ())) -> ()) {
         let gramophone = TestingUtilities.authenticatedGramophone(withScopes: [])
         waitUntil { done in
             request(gramophone) { result in
@@ -73,7 +73,7 @@ struct TestingUtilities {
         }
     }
     
-    static func testAuthentication<T>(scopes: [Scope] = [], request: @escaping (Gramophone, @escaping ((APIResult<T>) -> ())) -> ()) {
+    static func testAuthentication<T: Decodable>(scopes: [Scope] = [], request: @escaping (Gramophone, @escaping ((APIResult<T>) -> ())) -> ()) {
         let gramophone = TestingUtilities.unauthenticatedGramophone(withScopes: scopes)
         waitUntil { done in
             request(gramophone) { result in
@@ -90,7 +90,7 @@ struct TestingUtilities {
         }
     }
     
-    static func testSuccessfulRequest<T>(httpCode: UInt, scopes: [Scope] = [], requireMeta: Bool = true,
+    static func testSuccessfulRequest<T: Decodable>(httpCode: UInt, scopes: [Scope] = [], requireMeta: Bool = true,
                                       request: @escaping (Gramophone, @escaping ((APIResult<T>) -> ())) -> ()) {
         let gramophone = TestingUtilities.authenticatedGramophone(withScopes: scopes)
         waitUntil { done in
@@ -110,7 +110,7 @@ struct TestingUtilities {
         }
     }
     
-    static func testSuccessfulRequestWithDataConfirmation<T>(httpCode: UInt, scopes: [Scope] = [], requireMeta: Bool = true,
+    static func testSuccessfulRequestWithDataConfirmation<T: Decodable>(httpCode: UInt, scopes: [Scope] = [], requireMeta: Bool = true,
                                                           request: @escaping (Gramophone, @escaping ((APIResult<T>, (T) -> ()) -> ())) -> ()) {
         
         let gramophone = TestingUtilities.authenticatedGramophone(withScopes: scopes)
