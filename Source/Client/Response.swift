@@ -24,6 +24,8 @@
 //
 
 import Foundation
+import protocol Decodable.Decodable
+import enum Decodable.DecodingError
 import Decodable
 import Result
 

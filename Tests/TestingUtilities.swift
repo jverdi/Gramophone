@@ -27,6 +27,8 @@ import Foundation
 import Quick
 import Nimble
 import Result
+import protocol Decodable.Decodable
+import Decodable
 @testable import Gramophone
 
 let GramophoneTestsAccessToken = "4869495376.ee2868a.8ed8666e997948bebbcb82445bc0f66d" //"FAKE_ACCESS_TOKEN"
