@@ -89,7 +89,7 @@ class OAuthWebController: UIViewController, WKNavigationDelegate {
                 decisionHandler(.cancel)
 
                 let startIndex = range.upperBound
-                let accessToken = URLString.substring(from: startIndex)
+                let accessToken = String(URLString[startIndex...])
                 
                 authenticationDidComplete(Result.success(APIResponse(data: accessToken)))
                 return
