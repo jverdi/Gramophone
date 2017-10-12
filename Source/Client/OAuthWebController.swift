@@ -77,7 +77,7 @@ class OAuthWebController: UIViewController, WKNavigationDelegate {
         URLCache.shared.removeAllCachedResponses()
     }
     
-    public func cancel() {
+    @objc public func cancel() {
         authenticationDidComplete(Result.failure(APIError.userCancelled))
     }
     
