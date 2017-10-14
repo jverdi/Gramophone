@@ -24,6 +24,7 @@
 //
 
 import Foundation
+import protocol Decodable.Decodable
 import Decodable
 
 public struct APIResponse<T> {

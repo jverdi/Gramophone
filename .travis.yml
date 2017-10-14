@@ -1,15 +1,21 @@
 language: swift
-osx_image: xcode8.3
+osx_image: xcode9
 branches:
   only:
-    - develop
-    - master
+  - develop
+  - master
 before_install:
-  - brew update
-  - brew outdated carthage || brew upgrade carthage
-  - gem install xcpretty -N
+- brew update
+- brew outdated carthage || brew upgrade carthage
+- gem install xcpretty -N
 before_script:
-  - carthage bootstrap	
-script: 
-  - set -o pipefail
-  - xcodebuild -project Gramophone.xcodeproj -scheme Gramophone -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' test | xcpretty -c
+- carthage bootstrap
+script:
+- set -o pipefail
+- xcodebuild -project Gramophone.xcodeproj -scheme Gramophone -sdk iphonesimulator
+  -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.0' test | xcpretty -c
+after_success:
+- bash <(curl -s https://codecov.io/bash) -J 'Gramophone'
+env:
+  global:
+    secure: HAzn6olm3nZmIWwSq9RyRYvbSHTVDknmUkjOE48Gl9DoDybABY0xuKYgHGPBdZX/BuBySE6SYYHG5Wck7jIBirV1nfxarivrYeoz7oPyrWDa6TB18s897bEhBc7EqRD+kMjrZMCAl6pYCgazpHBUkuoqTwAnXeCDOJpvuqOP+qjHmfLatxsjTvsK5a8hj028/8elDuob9wmQc+fA9vc2KlfYuHhKWHLyFmWkbM9FBmJELB0xCvyzXh7iBUwjUs3neA1J1ua1vE4tTHTm+F6aXpZrYbj104dM/mHR4L9yVJzhX72BH8TcvuVgglOqsHXLFJifov2AlqK1LFOXcIeODtmqQ7bLjJl+OYplmXKc6w8KBcxyAeavK9R+cNtIyWQjcFqvT1CGv2kYBFJmUtnzmWpSi/T5MMd9utjnumWfef1w/Qx36XK8yyLrR+jBhO+8ws2fbmp4MTviftEnTeckTc1KtQ4IOu614E+JbmSiH4avXrH3vgQCOEO/nQfxLEnzFJ+JFvCRqZCxHhnGlrpKUW2WwpBvQj0fPAZzFLefJUYss0gaIgOVSLNmkPsdagy7MM/Sx5K10x3DvjfwDa/XasFzbSmAO/IVZrXmxFX6Z9/n4YnGTcHGdCptzRfx2O5eyzxBKvNUz1ihkDO/xpRgEo5QU92gPdjXQ5Bmv7jW5ek=

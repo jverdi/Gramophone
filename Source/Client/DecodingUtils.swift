@@ -24,6 +24,8 @@
 //
 
 import Foundation
+import protocol Decodable.Decodable
+import protocol Decodable.DynamicDecodable
 import Decodable
 
 public struct Array<T: Decodable>: Decodable {
@@ -45,7 +47,11 @@ extension UInt: Decodable, DynamicDecodable {
     public static var decoder: (Any) throws -> UInt = { try cast($0) }
 }
 
-extension URL: DynamicDecodable, Decodable {
+extension Data: Decodable, DynamicDecodable {
+    public static var decoder: (Any) throws -> Data = { try cast($0) }
+}
+
+extension URL {
     public static var decoder: (Any) throws -> URL = { object in
         let string = try String.decode(object)
         guard let url = URL(string: string) else {

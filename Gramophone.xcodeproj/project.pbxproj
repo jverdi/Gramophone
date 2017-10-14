@@ -28,6 +28,9 @@
 		134511F01E99FF9C00A4A949 /* relationship_incoming.json in Resources */ = {isa = PBXBuildFile; fileRef = 134511EF1E99FF9C00A4A949 /* relationship_incoming.json */; };
 		134511F21E99FFAA00A4A949 /* relationship_outgoing.json in Resources */ = {isa = PBXBuildFile; fileRef = 134511F11E99FFAA00A4A949 /* relationship_outgoing.json */; };
 		134511F81E9A7FB700A4A949 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134511F71E9A7FB700A4A949 /* Client.swift */; };
+		135D76DB1F926FEC0011B170 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 135D76D81F926FEB0011B170 /* Cartfile */; };
+		135D76DC1F926FEC0011B170 /* Gramophone.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 135D76D91F926FEB0011B170 /* Gramophone.podspec */; };
+		135D76DD1F926FEC0011B170 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 135D76DA1F926FEC0011B170 /* README.md */; };
 		136C71CA1E80E5A1007CDF63 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C71C91E80E5A1007CDF63 /* Resource.swift */; };
 		136C71D71E8103DC007CDF63 /* APIMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C71D61E8103DC007CDF63 /* APIMetadata.swift */; };
 		13A0E77C1E970D370069A7DA /* CommentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0E77B1E970D370069A7DA /* CommentsTests.swift */; };
@@ -119,6 +122,9 @@
 		134511EF1E99FF9C00A4A949 /* relationship_incoming.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = relationship_incoming.json; sourceTree = "<group>"; };
 		134511F11E99FFAA00A4A949 /* relationship_outgoing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = relationship_outgoing.json; sourceTree = "<group>"; };
 		134511F71E9A7FB700A4A949 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		135D76D81F926FEB0011B170 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		135D76D91F926FEB0011B170 /* Gramophone.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gramophone.podspec; sourceTree = SOURCE_ROOT; };
+		135D76DA1F926FEC0011B170 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		136C71C91E80E5A1007CDF63 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		136C71D61E8103DC007CDF63 /* APIMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIMetadata.swift; sourceTree = "<group>"; };
 		13A0E77B1E970D370069A7DA /* CommentsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsTests.swift; sourceTree = "<group>"; };
@@ -318,8 +324,11 @@
 			isa = PBXGroup;
 			children = (
 				13FC86D81E747500006655FA /* Gramophone.h */,
-				13FC86D91E747500006655FA /* Info.plist */,
 				13FC86FD1E7475AB006655FA /* Gramophone.swift */,
+				13FC86D91E747500006655FA /* Info.plist */,
+				135D76DA1F926FEC0011B170 /* README.md */,
+				135D76D81F926FEB0011B170 /* Cartfile */,
+				135D76D91F926FEB0011B170 /* Gramophone.podspec */,
 				13EA5E9D1E80D6DC00086DCD /* Client */,
 				13EA5EAD1E80D90D00086DCD /* Model */,
 				13EA5EB41E80DC8700086DCD /* Resources */,
@@ -406,17 +415,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Jared Verdi";
 				TargetAttributes = {
 					13FC86D41E747500006655FA = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					13FC86DD1E747500006655FA = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -444,6 +453,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135D76DD1F926FEC0011B170 /* README.md in Resources */,
+				135D76DC1F926FEC0011B170 /* Gramophone.podspec in Resources */,
+				135D76DB1F926FEC0011B170 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +560,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -556,7 +570,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -601,7 +619,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -609,7 +629,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -660,7 +684,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -685,7 +709,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eesel.Gramophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -702,7 +726,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eesel.GramophoneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -719,7 +743,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eesel.GramophoneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
