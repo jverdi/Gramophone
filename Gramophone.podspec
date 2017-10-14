@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Gramophone'
-  s.version = '1.0'
+  s.version = '1.1'
   s.summary = 'Gramophone is a swifty wrapper of the Instagram API'
   s.homepage = 'https://github.com/jverdi/Gramophone'
   s.license = { :type => "MIT", :file => "LICENSE" }
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.dependency 'Result', '~> 3.2'
-  s.dependency 'Decodable', '~> 0.5'
+  s.dependency 'Decodable', '~> 0.6'
 end
