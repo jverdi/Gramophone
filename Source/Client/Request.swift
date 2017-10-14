@@ -24,7 +24,7 @@
 //
 
 import Foundation
-import Decodable
+import protocol Decodable.Decodable
 import Result
 
 extension Client {

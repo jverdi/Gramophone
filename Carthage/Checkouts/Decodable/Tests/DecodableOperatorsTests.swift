@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import protocol Decodable.Decodable
+import enum Decodable.DecodingError
 @testable import Decodable
 
 class DecodableOperatorsTests: XCTestCase {
@@ -118,10 +120,11 @@ class DecodableOperatorsTests: XCTestCase {
         // when
         do {
             let a = try dictionary => KeyPath(key) as String?
-            print(a)
+            print(a as Any)
             XCTFail()
         } catch let DecodingError.typeMismatch(_, actual, _) {
-            XCTAssertEqual(String(describing: actual), "_SwiftTypePreservingNSNumber")
+            let typeString = String(describing: actual)
+            XCTAssertTrue(typeString.contains("Number"), "\(typeString) should contain NSNumber")
         } catch let error {
             XCTFail("should not throw \(error)")
         }
@@ -205,7 +208,7 @@ class DecodableOperatorsTests: XCTestCase {
         } catch let DecodingError.typeMismatch(expected, actual, metadata) where expected == NSDictionary.self {
             // then
             XCTAssertTrue(true)
-            XCTAssertEqual(String(describing: actual), "__NSCFString")
+            XCTAssertTrue(String(describing: actual).contains("String"))
             XCTAssertEqual(metadata.formattedPath, "")
             XCTAssertEqual(metadata.object as? NSString, (noDictionary))
         } catch let error {

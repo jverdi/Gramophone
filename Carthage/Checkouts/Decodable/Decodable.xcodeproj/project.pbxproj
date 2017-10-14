@@ -53,6 +53,8 @@
 		8F72DC591C3CB8C900A39E10 /* NSValueCastable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72DC551C3CB8C500A39E10 /* NSValueCastable.swift */; };
 		8F84E70F1C3CB92D001EA4CE /* NSValueDecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F84E70E1C3CB92D001EA4CE /* NSValueDecodableTests.swift */; };
 		8F84E7101C3CB92D001EA4CE /* NSValueDecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F84E70E1C3CB92D001EA4CE /* NSValueDecodableTests.swift */; };
+		8F85E7781E13DA16000D6989 /* NSNullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F85E7771E13DA16000D6989 /* NSNullTests.swift */; };
+		8F85E7791E13DA16000D6989 /* NSNullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F85E7771E13DA16000D6989 /* NSNullTests.swift */; };
 		8F87BCBB1B580CE200E53A8C /* ErrorPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F87BCBA1B580CE200E53A8C /* ErrorPathTests.swift */; };
 		8F87BCBC1B580CE200E53A8C /* ErrorPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F87BCBA1B580CE200E53A8C /* ErrorPathTests.swift */; };
 		8F87BCC41B592F0E00E53A8C /* DecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F87BCC31B592F0E00E53A8C /* DecodingError.swift */; };
@@ -136,6 +138,7 @@
 		8F6FCF5E1D4B39FC00838CE4 /* DynamicDecodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicDecodableTests.swift; sourceTree = "<group>"; };
 		8F72DC551C3CB8C500A39E10 /* NSValueCastable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSValueCastable.swift; sourceTree = "<group>"; };
 		8F84E70E1C3CB92D001EA4CE /* NSValueDecodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSValueDecodableTests.swift; sourceTree = "<group>"; };
+		8F85E7771E13DA16000D6989 /* NSNullTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNullTests.swift; sourceTree = "<group>"; };
 		8F87BCBA1B580CE200E53A8C /* ErrorPathTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorPathTests.swift; sourceTree = "<group>"; };
 		8F87BCC31B592F0E00E53A8C /* DecodingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodingError.swift; sourceTree = "<group>"; };
 		8F956D1E1B4D6FF700243072 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
@@ -286,6 +289,7 @@
 				9E2DA75B1CBC77AB00CAF3DF /* DecodeAsOneOfTests.swift */,
 				8F84E70E1C3CB92D001EA4CE /* NSValueDecodableTests.swift */,
 				FF0060AF1B546FB100D8CB77 /* DecodableOperatorsTests.swift */,
+				8F85E7771E13DA16000D6989 /* NSNullTests.swift */,
 				8FD3D92E1C270A2D00D1AF4E /* MissingKeyOperatorTests.swift */,
 				651A8C961C29AC5E00DE4D53 /* RawRepresentableDecodableTests.swift */,
 				8F4B52641B5BAA5700FDCBA7 /* ArrayTests.swift */,
@@ -465,7 +469,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = anviking;
 				TargetAttributes = {
 					17FB80F61B530FED0012F106 = {
@@ -476,9 +480,11 @@
 					};
 					8FE7B5611B4C9FB900837609 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
 					};
 					8FE7B56B1B4C9FB900837609 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
 					};
 					D0DC546E1B7814D200F79CB0 = {
 						CreatedOnToolsVersion = 7.0;
@@ -652,6 +658,7 @@
 				8F4453F01D369FF200C19099 /* ParseTests.swift in Sources */,
 				8F84E7101C3CB92D001EA4CE /* NSValueDecodableTests.swift in Sources */,
 				8F4B52661B5BAA5700FDCBA7 /* ArrayTests.swift in Sources */,
+				8F85E7791E13DA16000D6989 /* NSNullTests.swift in Sources */,
 				FFE77E211B5396FB00E52F28 /* Repository.swift in Sources */,
 				FF0060981B5453C600D8CB77 /* DecodableTests.swift in Sources */,
 				9E2DA75D1CBC77AB00CAF3DF /* DecodeAsOneOfTests.swift in Sources */,
@@ -712,6 +719,7 @@
 				8F4453EF1D369FF200C19099 /* ParseTests.swift in Sources */,
 				8F84E70F1C3CB92D001EA4CE /* NSValueDecodableTests.swift in Sources */,
 				8F4B52651B5BAA5700FDCBA7 /* ArrayTests.swift in Sources */,
+				8F85E7781E13DA16000D6989 /* NSNullTests.swift in Sources */,
 				8FE7B5721B4C9FB900837609 /* DecodableTests.swift in Sources */,
 				FFE77E221B5396FC00E52F28 /* Repository.swift in Sources */,
 				9E2DA75C1CBC77AB00CAF3DF /* DecodeAsOneOfTests.swift in Sources */,
@@ -832,6 +840,7 @@
 		57FCDE631BA283C900130C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -850,6 +859,7 @@
 		57FCDE641BA283C900130C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -876,13 +886,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -931,13 +949,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -976,6 +1002,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -988,6 +1015,8 @@
 				PRODUCT_NAME = Decodable;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -996,6 +1025,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1008,6 +1038,8 @@
 				PRODUCT_NAME = Decodable;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1020,6 +1052,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anviking.DecodableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1033,12 +1067,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = anviking.DecodableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		D0DC54741B7814D200F79CB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1057,6 +1094,7 @@
 		D0DC54751B7814D200F79CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

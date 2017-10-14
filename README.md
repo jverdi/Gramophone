@@ -6,8 +6,8 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/Gramophone.svg)](#cocoapods)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
 [![GitHub release](https://img.shields.io/github/release/jverdi/Gramophone.svg)](https://github.com/jverdi/Gramophone/releases)
-[![Swift 3.0.x](https://img.shields.io/badge/Swift-3.0.x-orange.svg)](#)
-[![Pod License](https://img.shields.io/cocoapods/l/Gramophone.svg)](http://jaredverdi.mit-license.org)
+[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg)](#)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](http://jaredverdi.mit-license.org)
 [![Twitter](https://img.shields.io/badge/twitter-@jverdi-blue.svg?style=flat)](http://twitter.com/jverdi)  
 
 Gramophone is a framework for interacting with the Instagram REST API, written in Swift.  
@@ -90,7 +90,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '{YOUR_TARGET}' do
-    pod 'Gramophone', '~> 1.0'
+    pod 'Gramophone', '~> 1.1'
 end
 ```
 
@@ -105,7 +105,7 @@ $ pod install
 To integrate Gramophone using [Carthage](https://github.com/Carthage/Carthage), add it to your `Cartfile`:
 
 ```ogdl
-github "jverdi/Gramophone" ~> 1.0
+github "jverdi/Gramophone" ~> 1.1
 ```
 
 Then, run:

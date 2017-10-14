@@ -8,13 +8,16 @@
 
 import XCTest
 import Foundation
+import protocol Decodable.Decodable
+import enum Decodable.DecodingError
+import struct Decodable.KeyPath
 @testable import Decodable
 
 class ParseTests: XCTestCase {
     
     func testParseKeyPathSuccess() {
         let dict: NSDictionary = ["a": ["b": 3]]
-        let a: Any = try! parse(dict, ["a", "b"])
+        let a = try! parse(dict, ["a", "b"] as KeyPath)
         XCTAssertEqual(a as? Int, 3)
     }
     

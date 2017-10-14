@@ -77,7 +77,7 @@ class OAuthWebController: UIViewController, WKNavigationDelegate {
         URLCache.shared.removeAllCachedResponses()
     }
     
-    public func cancel() {
+    @objc public func cancel() {
         authenticationDidComplete(Result.failure(APIError.userCancelled))
     }
     
@@ -89,7 +89,7 @@ class OAuthWebController: UIViewController, WKNavigationDelegate {
                 decisionHandler(.cancel)
 
                 let startIndex = range.upperBound
-                let accessToken = URLString.substring(from: startIndex)
+                let accessToken = String(URLString[startIndex...])
                 
                 authenticationDidComplete(Result.success(APIResponse(data: accessToken)))
                 return
