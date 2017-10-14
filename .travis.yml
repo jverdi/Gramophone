@@ -1,5 +1,5 @@
 language: swift
-osx_image: xcode8.3
+osx_image: xcode9
 branches:
   only:
   - develop
@@ -13,7 +13,7 @@ before_script:
 script:
 - set -o pipefail
 - xcodebuild -project Gramophone.xcodeproj -scheme Gramophone -sdk iphonesimulator
-  -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' test | xcpretty -c
+  -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.0' test | xcpretty -c
 after_success:
 - bash <(curl -s https://codecov.io/bash) -J 'Gramophone'
 env:
